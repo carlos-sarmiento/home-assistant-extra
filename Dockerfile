@@ -40,4 +40,4 @@ RUN apk add --no-cache \
     && apk del .build-dependencies \
     && rm -rf /usr/src/opencv
 
-RUN pip3 install pymysql && pip3 install opencv-python
+RUN pip3 install pymysql
