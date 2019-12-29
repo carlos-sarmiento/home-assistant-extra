@@ -1,3 +1,3 @@
-FROM homeassistant/home-assistant:0.103.0
+FROM homeassistant/home-assistant:latest
 
 RUN pip3 install pymysql
